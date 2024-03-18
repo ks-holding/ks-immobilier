@@ -1,0 +1,249 @@
+header nav {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.781);
+  position: fixed;
+  z-index: 100;
+  backdrop-filter: blur(7px);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.24);
+  margin: auto;
+  padding: 0 25px;
+}
+
+header nav .container {
+  max-width: $container-width;
+  width: 100%;
+  margin: auto;
+  padding: 8px 0 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header nav ul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.openmenu_bar {
+  display: flex;
+  padding: 18px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.openmenu_bar span {
+  margin: auto;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.openmenu_bar span span {
+  margin: auto;
+  border: solid $color-text 2px;
+  border-radius: 50%;
+}
+
+header nav .phone_number {
+  padding: 7px 15px;
+  border: 2px solid $color-text;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 0.98rem;
+  display: flex;
+  letter-spacing: 0.05rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  white-space: nowrap;
+  svg,
+  span {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &:hover {
+    background: black;
+    border-color: black;
+    a {
+      color: white;
+    }
+    svg {
+      fill: white;
+      color: white;
+    }
+  }
+}
+
+header nav .phone_number span {
+  margin-right: 12px;
+}
+
+header nav .phone_number span svg {
+  height: 100%;
+}
+
+header nav img {
+  width: 80px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  font-family: $font-secondary;
+  margin-right: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: lighten($color-main, 10);
+}
+
+.nav_selected {
+  color: lighten($color-main, 20);
+}
+
+///////////////////////////////////////////////////
+
+footer {
+  background: $color-white-medium;
+
+  font-size: 1.1rem;
+  font-family: $font-secondary;
+}
+
+footer .logo {
+  margin-bottom: 5px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+footer .wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 230px);
+  column-gap: 20px;
+  margin: auto;
+  padding: 20px 0 80px;
+  width: 92%;
+  max-width: $container-width;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1rem;
+  font-weight: 600;
+  flex-wrap: wrap;
+
+  svg {
+    &:hover {
+      fill: $color-main;
+      color: $color-main;
+    }
+  }
+}
+
+footer .wrapper ul {
+  min-width: 150px;
+}
+
+footer .wrapper .column {
+  margin-top: 0.5rem;
+}
+
+footer .wrapper .row {
+  flex-direction: row;
+}
+
+footer .wrapper li {
+  display: flex;
+  font-size: 1.1rem;
+  align-items: center;
+}
+
+footer li div {
+  opacity: 0.85;
+}
+
+footer .wrapper li strong {
+  display: flex;
+  align-items: center;
+  width: 25px;
+}
+
+footer .wrapper li {
+  margin-top: 0.85rem;
+}
+
+footer .title {
+  margin-left: 0;
+}
+
+footer .wrapper span {
+  margin-right: 10px;
+}
+
+footer .wrapper a {
+  line-height: 1rem;
+  margin-right: 15px;
+
+  &:hover {
+    color: lighten($color-secondary, 25);
+  }
+}
+
+footer .title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.8rem;
+  margin-bottom: 5px;
+  margin-top: 0.5rem;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer nav ul {
+  width: 800px;
+  margin: 30px auto;
+}
+
+footer .copyright {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  color: $color-white-medium;
+  background: $color-dark1;
+  padding: 12px 30px 18px;
+  line-height: 1.25rem;
+}
+
+footer .wrapper li.tel {
+  font-family: $font-main;
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}

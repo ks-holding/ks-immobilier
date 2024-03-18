@@ -1,0 +1,55 @@
+////// MICRO GESTION
+
+////// MARGIN
+
+@for $i from 0 through 10 {
+  .mt-#{$i} {
+    margin-top: $i * 1rem !important;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $i * 1rem !important;
+  }
+
+  .br-#{$i} {
+    border-radius: 5px * $i;
+  }
+}
+
+.m-auto {
+  margin: auto;
+}
+
+////// BORDER RADIUS
+
+.br-1 {
+  border-radius: 5px;
+}
+
+.br-2 {
+  border-radius: 10px;
+}
+
+.br-3 {
+  border-radius: 15px;
+}
+
+.br-4 {
+  border-radius: 20px;
+}
+
+.br-5 {
+  border-radius: 25px;
+}
+
+.br-6 {
+  border-radius: 40px;
+}
+
+.br-7 {
+  border-radius: 50px;
+}
+
+.br-8 {
+  border-radius: 60px;
+}

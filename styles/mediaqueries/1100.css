@@ -1,0 +1,45 @@
+@media screen and (max-width: 1100px) {
+  .container {
+    max-width: 1100px;
+  }
+  #landing {
+    min-height: 80vh;
+    padding: 0;
+  }
+  #landing .row-reverse .circle {
+    height: 400px;
+    width: 400px;
+    margin: 3rem 0px 6rem;
+  }
+  #presentation .grid-layout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  #presentation .grid-layout div {
+    width: 100%;
+  }
+  #presentation .grid-layout h2 {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  #presentation .grid-layout p {
+    width: 100%;
+    max-width: unset;
+  }
+  #presentation .grid-layout figure {
+    margin-bottom: 4rem;
+  }
+}
+/*# sourceMappingURL=1100.css.map */

@@ -1,0 +1,60 @@
+//////
+
+.filarianne {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 4.5rem;
+}
+
+.bigarticle .filarianne {
+  margin-bottom: 2.5rem;
+}
+
+.filarianne .row {
+  padding: 10px 16px;
+  border-radius: 25px 45px;
+  background-color: $color-white-medium2;
+  border-radius: 30px;
+}
+
+.filarianne > .row > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.filarianne .item a {
+  text-decoration: none;
+  &:hover {
+    color: lighten($color-main, 5);
+  }
+}
+
+.filarianne .item {
+  padding: 10px 15px;
+
+}
+
+.filarianne .selected {
+  border-bottom: 4px solid lighten($color-main, 15%);
+}
+
+.filarianne a,
+.filarianne span {
+  font-size: 0.98rem;
+  line-height: 1rem;
+  font-weight: 600;
+  color: $color-text;
+}
+
+.filarianne .item:hover {
+  color: lighten($color-main, 10%);
+}
+
+.filarianne span {
+  margin: 0 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 10px 0;
+  user-select: none;
+}

@@ -1,0 +1,94 @@
+.fadein {
+  opacity: 0;
+  animation: fadein 1.2s ease both;
+}
+
+.fadezoomin {
+  opacity: 0;
+  animation: fadezoomin 0.45s cubic-bezier(0, 0.79, 1, 1) both;
+}
+
+.zoomin {
+  transform: scale(0);
+  animation: zoomin 0.5s ease both;
+}
+
+.circlealternate {
+  animation-name: circlealternate;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+@for $i from 1 through 15 {
+  .fadein:nth-child(#{$i}) {
+    animation-delay: $i * 0.15s;
+  }
+
+  .fadezoomin:nth-child(#{$i}) {
+    animation-delay: $i * 0.1s;
+  }
+
+  .zoomin:nth-child(#{$i}) {
+    animation-delay: $i * 0.1s;
+  }
+}
+
+// -----------------------------------------------------------------------------------------------------------------------------------   ///////////
+// -----------------------------------------------------------------------------------------------------------------------------------   ///////////
+// -----------------------------------------------------------------------------------------------------------------------------------   ///////////
+// -----------------------------------------------------------------------------------------------------------------------------------   ///////////
+
+@keyframes circlealternate {
+  0% {
+    r: 12px;
+  }
+  100% {
+    r: 30px;
+  }
+}
+
+@keyframes fadezoomin {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes header {
+  0% {
+    opacity: 0;
+    border-radius: 50%;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    border-radius: 0;
+    transform: translateX(0);
+  }
+}

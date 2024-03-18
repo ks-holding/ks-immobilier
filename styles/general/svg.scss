@@ -1,0 +1,45 @@
+svg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover svg {
+    fill: white;
+    color: white;
+}
+
+
+.cls-1 {
+    stroke: #2a3352;
+    fill: #fff;
+    stroke-linejoin: round;
+    stroke-width: 8px;
+
+}
+
+
+.cls-2 {
+    fill: none;
+    stroke-linejoin: round;
+    stroke-width: 8px;
+    stroke: #2a3352;
+}
+
+.cls-3 {
+    stroke: none;
+    stroke-linecap: round;
+    stroke-width: 8px;
+
+    fill: #2a3352;
+}
+
+.cls-4 {
+
+    stroke-linecap: round;
+    stroke-width: 8px;
+    stroke-dasharray: 30px;
+    stroke: #2a3352;
+    fill: none;
+}

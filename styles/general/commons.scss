@@ -1,0 +1,342 @@
+////// BLOCS
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: $font-main;
+  color: $color-text;
+  max-width: 100vw;
+  scrollbar-width: none;
+}
+
+main {
+  margin-top: 85px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+section,
+section.container {
+  padding: 3.5rem 0 5.5rem;
+  max-width: 100vw;
+}
+
+section:first-child {
+  padding-top: 0;
+}
+
+// section h2 {
+//     padding-top: 4rem;
+// }
+
+* {
+  box-sizing: border-box;
+  transition: opacity 0.5s ease;
+}
+
+*::selection {
+  background: lighten($color-main, 10%);
+}
+
+//// TITLES
+
+h1 {
+  font-size: 3.4rem;
+  line-height: 3.8rem;
+  font-weight: 600;
+  padding-top: 0.2rem;
+  text-align: left;
+  margin: 0.5rem auto 1.5rem;
+  color: datken($color-text, 20%);
+  &::selection {
+    background: $color-text;
+  }
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 2.65rem;
+  margin: 3rem auto 1.5rem;
+  padding-top: 1rem;
+}
+
+h3 {
+  font-size: 1.65rem;
+  line-height: 1.9rem;
+  font-weight: 500;
+
+  margin: 2.3rem 0 1rem;
+  // color: $color-main;
+  text-align: left;
+}
+
+li h3 {
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h5 {
+}
+
+//// TEXT
+// h1,
+// h2,
+// h3,
+// h4,
+// p,
+// a,
+// ul,
+// .container-text {
+//     max-width: 900px;
+
+// }
+
+.container-text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p,
+ul,
+ol,
+li {
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+p {
+  margin: 1rem auto;
+}
+
+li {
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.45rem;
+}
+
+i {
+  font-style: italic;
+  font-size: 1.05rem;
+}
+
+strong.black {
+  color: $color-text;
+}
+
+h2 strong {
+  font-size: 1.01em;
+}
+
+h2 strong {
+  font-weight: 500;
+  font-size: 1.02em;
+  color: $color-main;
+}
+
+a {
+  text-decoration: none;
+  color: $color-text;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: lighten($color-main, 5%);
+  font-size: 1.22rem;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: lighten($color-main, 20%);
+  fill: lighten($color-main, 10%);
+}
+
+figure {
+  margin: 2rem 0 0.5rem;
+  max-width: 100vw;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100vw;
+}
+
+.column figure:first-child {
+  margin-top: 0;
+}
+
+.picture-panorama-medium {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+  margin-top: 0.1rem;
+  font-style: italic;
+}
+
+//// LISTS
+.dotlist li {
+  margin-bottom: 0.5rem;
+}
+
+.dotlist,
+.bigarticle ul {
+  padding-left: 10px;
+  list-style: none;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dotlist li::before,
+.bigarticle ul li::before {
+  content: "•";
+  color: lighten($color-main, 10%);
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+  margin-right: 0.8rem;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}
+
+.dotlist li,
+.bigarticle li {
+  padding-left: 1rem;
+  line-height: 2.1rem;
+
+  position: relative;
+}
+
+/////
+
+hr {
+  border: none;
+  width: 80%;
+  margin: auto;
+  height: 2px;
+  background: $color-text;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+/// FORMULAIRES
+
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  align-items: center;
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.65rem;
+  cursor: pointer;
+  user-select: none;
+  width: 90%;
+  text-align: left;
+}
+
+#consent {
+  margin-right: 20px;
+  height: 19px;
+  width: 19px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 0;
+}
+
+button,
+input,
+textarea {
+  padding: 8px 50px;
+  border: 2px solid $color-text;
+  border-radius: 50px;
+  margin: 5px 0 35px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: $font-main;
+  align-items: center;
+}
+
+button,
+input,
+textarea {
+  outline: none;
+}
+
+button {
+  max-width: 350px;
+  justify-content: center;
+
+  background: none;
+  color: $font-main;
+  line-height: 1.1rem;
+
+  svg {
+    margin-left: 10px;
+  }
+}
+
+button:hover {
+  background: darken($color-text, 10);
+  color: white;
+}
+
+textarea {
+  margin-bottom: 15px;
+  border-radius: 25px;
+  padding: 15px 25px;
+}
+
+input {
+  margin-bottom: 0;
+  padding: 12px 25px;
+}
+
+input,
+textarea {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+}
+
+button {
+  font-size: 1.15rem;
+  cursor: pointer;
+  //background-color: $color-white;
+  padding: 11px 27px;
+  display: flex;
+}
+
+button span {
+  margin-right: 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.grecaptcha-badge {
+  display: none !important;
+}

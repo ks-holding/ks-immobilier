@@ -1,0 +1,141 @@
+.bigarticle {
+  margin-top: 10px;
+  padding-top: 0;
+}
+
+.bigarticle .filarianne a {
+  color: $color-text;
+}
+
+.bigarticle .accesrapide a {
+  text-transform: none;
+  text-decoration: none;
+  color: $color-text;
+  margin-top: 0.5rem;
+}
+
+.bigarticle .accesrapide a:hover {
+  border-color: $color-main;
+  color: white;
+}
+
+.bigarticle .picture-panorama {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto 1rem;
+}
+
+.bigarticle a {
+  color: $color-main;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.bigarticle p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  overflow-x: hidden;
+}
+
+.bigarticle img {
+  max-width: 100%;
+  height: 400px;
+  display: flex;
+  border-radius: 18px;
+  margin: 5rem auto 1rem;
+  // margin: 5rem auto 2rem;
+}
+
+.bigarticle h2 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+.bigarticle h3 {
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+}
+
+.bigarticle img + h2 {
+  margin-top: 0;
+}
+
+.bigarticle h2:first-child {
+  margin-top: 1rem;
+}
+
+.bigarticle article {
+  padding-top: 0;
+}
+
+.bigarticle ul {
+  margin-top: 2rem;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.bigarticle ul li p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.bigarticle .category {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: lighten($color-main, 5%);
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.bigarticle .title {
+  font-size: 2.9rem;
+  font-weight: 700;
+  line-height: 3rem;
+  margin-bottom: 1.8rem;
+  padding-top: 0;
+}
+
+.bigarticle .subtitle {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  margin-bottom: 0.85rem;
+}
+
+.bigarticle .date {
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: 500;
+
+  opacity: 0.85;
+  margin: auto;
+  color: lighten($color-text, 20);
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.bigarticle .body {
+  margin-top: 3.5rem;
+  margin-bottom: 7rem;
+}
+
+.article_cover {
+  width: 100%;
+}
+
+.bigarticle .picture-panorama {
+  height: 400px;
+}
+
+.bigarticle ul li {
+  margin-bottom: 1.5rem;
+  align-items: flex-end;
+  position: relative;
+}
+
+.bigarticle .accesrapide > p {
+  margin-bottom: 0.5rem;
+}

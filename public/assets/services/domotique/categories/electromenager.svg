@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="electromenager" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <rect x="147.74" y="195.94" width="603.19" height="596.89" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <line x1="147.74" y1="307.76" x2="750.93" y2="307.76" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <circle cx="449.33" cy="540.59" r="123.22" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <circle cx="449.33" cy="540.59" r="174.8" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <circle cx="228.84" cy="253.43" r="25.2" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <rect x="488.7" y="228.23" width="190.56" height="50.4" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+</svg>

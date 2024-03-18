@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="garage_et_portail" data-name="garage et portail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <polygon points="802.14 747.16 97.86 747.16 97.86 326.42 450 112.38 802.14 326.42 802.14 747.16" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <g>
+    <rect x="192.92" y="388.37" width="514.16" height="358.79" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+    <line x1="192.92" y1="478.07" x2="707.08" y2="478.07" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+    <line x1="192.92" y1="567.77" x2="707.08" y2="567.77" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+    <line x1="192.92" y1="657.46" x2="707.08" y2="657.46" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  </g>
+</svg>

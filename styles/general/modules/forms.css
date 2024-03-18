@@ -1,0 +1,29 @@
+.circle {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle img {
+  height: 100%;
+}
+
+.small-circle {
+  height: 300px;
+  width: 300px;
+}
+
+.medium-circle {
+  height: 400px;
+  width: 400px;
+}
+
+.medium-circle2 {
+  height: 480px;
+  width: 480px;
+}
+
+.large-circle {
+  height: 600px;
+  width: 600px;
+}
+/*# sourceMappingURL=forms.css.map */

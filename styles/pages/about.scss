@@ -1,0 +1,84 @@
+#about .wrapper .item:hover figure {
+  transform: scale(1.1);
+}
+
+#about {
+  .item {
+    a {
+      text-decoration: none;
+      color: $color-text;
+    }
+
+    p {
+      margin-top: 1rem;
+      line-height: 1.9rem;
+    }
+  }
+
+  ul {
+    margin: 4rem auto 2rem;
+  }
+
+  .grid-layout {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    .column {
+      margin-bottom: 0;
+      .pad {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        display: grid;
+        justify-content: space-between;
+        margin: 0.5rem 0rem;
+        margin-bottom: 0.5rem;
+        width: 100%;
+        grid-template-columns: 1fr 50px;
+        padding: 35px;
+        svg {
+          height: 100%;
+        }
+
+        &:hover {
+          background: $color-white-medium;
+        }
+
+        span {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        figure {
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+  #download-flyer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > svg {
+      margin-top: 2rem;
+    }
+    h2 {
+      margin-top: 1rem;
+      margin-bottom: 5px;
+    }
+
+    button {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 12px 30px;
+      margin-top: 30px;
+      margin-bottom: 0;
+      svg {
+        width: unset;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

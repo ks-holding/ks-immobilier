@@ -1,0 +1,150 @@
+#services {
+  h1 {
+    margin-bottom: 6.5rem;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 2.5rem;
+    row-gap: 5.5rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+  }
+  .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s ease transform;
+
+    &:hover {
+      transform: scale(1.05);
+      figure {
+        background: lighten($color-main, 7);
+      }
+      svg {
+        fill: lighten($color-main, 7) !important;
+        background: lighten($color-main, 7) !important;
+        stroke-linejoin: round !important;
+        .cls-1,
+        .cls-2,
+        .cls-3 {
+          fill: lighten($color-main, 7) !important;
+        }
+      }
+    }
+    .button-empty {
+      background: $color-text;
+      color: white;
+    }
+    h3 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+
+  .column {
+    figure {
+      border-radius: 50%;
+      margin: 0;
+      margin-bottom: 1rem;
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background: $color-white-medium4;
+    }
+    h3 {
+      margin-top: 1rem;
+      margin-bottom: 1.1rem;
+    }
+  }
+
+  .picture-panorama-medium {
+    margin-top: 5rem;
+  }
+  .grid-layout h3 {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .item p {
+    margin-top: 0;
+    line-height: 1.75rem;
+  }
+  .wrapper figure svg {
+    width: 55%;
+    height: 55%;
+  }
+
+  // ///////////////////////////
+}
+#isolation {
+  .wrapper {
+    margin-top: 5rem;
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 10px;
+    row-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    .item {
+      width: 100%;
+      align-items: center;
+      cursor: pointer;
+
+      a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-weight: 600;
+        font-size: 1.15rem;
+        color: $color-main;
+        opacity: 0;
+        transform: translateY(-35px);
+        transition: all 0.15s ease;
+
+        svg {
+          margin-right: 10px;
+        }
+      }
+
+      h2 {
+        font-size: 1.7rem;
+        line-height: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        margin-top: 0;
+      }
+
+      figure {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.2s ease;
+      }
+      &:hover {
+        figure {
+          transform: scale(1.1);
+        }
+        a {
+          opacity: 1;
+          transform: translateY(-10px);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@import "general/variables.scss";
+@import "general/reset.scss";
+@import "general/commons.scss";
+@import "general/layout.scss";
+@import "general/animations.scss";
+@import "general/micros.scss";
+@import "general/svg.scss";
+@import "general/template.scss";
+
+// /// modules
+@import "general/modules/modal.scss";
+@import "general/modules/buttons.scss";
+@import "general/modules/filarianne.scss";
+@import "general/modules/beforeafter.scss";
+@import "general/modules/pagination.scss";
+@import "general/modules/forms.scss";
+@import "general/modules/accesrapide.scss";
+@import "general/modules/pictures.scss";
+@import "general/modules/stats.scss";
+@import "general/modules/skillcircle.scss";
+@import "general/modules/progressScrollBar.scss";
+
+//// PAGES
+@import "pages/home.scss";
+@import "pages/renovation-globale.scss";
+@import "pages/about.scss";
+@import "pages/domotique.scss";
+@import "pages/services.scss";
+@import "pages/domaines-activite.scss";
+@import "pages/service_page.scss";
+@import "pages/contact.scss";
+@import "pages/articles.scss";
+@import "pages/bigarticle.scss";
+@import "pages/projet.scss";
+@import "pages/projets.scss";
+@import "pages/faq.scss";
+@import "pages/lexique.scss";
+@import "pages/mentionslegales.scss";
+
+//// MEDIA QUERIES
+@import "mediaqueries/1100.scss";
+@import "mediaqueries/920.scss";
+@import "mediaqueries/768.scss";
+@import "mediaqueries/500.scss";

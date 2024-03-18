@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="volets" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <rect x="162.39" y="400.43" width="575.22" height="364.29" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <rect x="146.77" y="54.21" width="606.47" height="140.96" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <rect x="136.38" y="764.72" width="627.24" height="68.91" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <rect x="479.76" y="441.82" width="208.05" height="275.63" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <rect x="212.19" y="441.82" width="208.05" height="275.63" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <g>
+    <rect x="162.39" y="195.17" width="575.22" height="205.25" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+    <line x1="162.39" y1="236.22" x2="737.61" y2="236.22" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+    <line x1="162.39" y1="277.27" x2="737.61" y2="277.27" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+    <line x1="162.39" y1="318.33" x2="737.61" y2="318.33" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+    <line x1="162.39" y1="359.38" x2="737.61" y2="359.38" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  </g>
+</svg>

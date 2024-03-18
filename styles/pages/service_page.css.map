@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC,WAAW,CAAC;EACtB,aAAa,EAAE,IAAI;CAEtB",
+    "sources": [
+        "service_page.scss"
+    ],
+    "names": [],
+    "file": "service_page.css"
+}

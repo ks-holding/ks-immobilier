@@ -1,0 +1,190 @@
+////////////////////////
+///// GRID
+
+.grid {
+  display: grid;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  column-gap: 2rem;
+  max-width: $container-wide-width;
+  margin: 4.5rem auto 3rem;
+}
+
+.grid-layout h2:first-child {
+  margin-top: 0;
+}
+
+@for $i from 1 through 12 {
+  @for $j from 1 through 12 {
+    .grid-#{$i}-#{$j} {
+      grid-column-start: $i;
+      grid-column-end: $j + 1;
+    }
+  }
+}
+
+////////////////////////
+//// TEXTS
+.text-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-left {
+  text-align: left;
+  margin-left: 0;
+}
+
+.text-right {
+  text-align: right;
+}
+
+////////////////////////
+////// FLEX
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+  display: flex;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-layout .column {
+  margin-top: 0;
+}
+
+.column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.reverse {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column p:first-child,
+.column h2:first-child,
+.column h1:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.sp-e {
+  justify-content: space-evenly;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: $container-width;
+  margin: auto;
+  padding: 30px 0;
+  width: 90%;
+}
+
+.container-wide {
+  max-width: 1500px;
+  margin: auto;
+  padding: 30px 0;
+  width: 90%;
+}
+
+.container h2:first-child,
+.column h2:first-child {
+  margin-top: 0;
+}
+
+.container-medium {
+  max-width: $container-medium-width;
+  margin: auto;
+  padding: 30px 0;
+  width: 95%;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 30px;
+}
+
+.bgc-white,
+.bgc-white2,
+.bgc-dark {
+  padding-top: 5.5rem;
+  padding-bottom: 6rem;
+}
+
+.bgc-white {
+  background: $color-white-medium;
+}
+
+.bgc-white2 {
+  background: $color-white-medium2;
+}
+
+.bgc-dark {
+  background: $color-text;
+  color: $color-white-medium;
+  font-size: 1.1em;
+}
+
+//////
+
+////// SPECIAL TEXT
+.error {
+  color: #ef3434;
+  font-size: 1.1em;
+  margin-bottom: 2px;
+  margin-top: 3rem;
+}
+
+#contact .notice {
+  font-size: 0.95rem !important;
+  line-height: 1.35rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.circle div {
+  width: 100%;
+  height: 100%;
+}
+
+//// TILE
+///
+.tile {
+  border-radius: 35px;
+  padding: 20px 40px 35px;
+  background: $color-white-medium3;
+}
+
+.tile-empty {
+  border-radius: 35px;
+  padding: 20px 40px 35px;
+  border: 3px solid $color-white-medium2;
+}

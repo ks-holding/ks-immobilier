@@ -1,0 +1,39 @@
+/// BUTTONS
+
+.btn-primary {
+    border: none;
+    color: $color-white;
+    background: $color-main;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: darken($color-main, 15);
+}
+
+
+.button-empty {
+    background: none;
+    transition: all 0.2s ease;
+    color: $color-text;
+    line-height: 1.2rem;
+    font-size: 1.05rem;
+}
+
+.button-empty:hover {
+    background: $color-text;
+    color: white;
+}
+
+
+.btn-filled {
+    background: $color-main;
+    color: white;
+    border: none;
+}
+
+.btn-filled:hover {
+    background: lighten($color-main, 10%);
+    color: white;
+    border: none;
+}

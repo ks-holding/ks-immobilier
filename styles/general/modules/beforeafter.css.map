@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC,MAAM,CAAC;EAChB,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "beforeafter.scss"
+    ],
+    "names": [],
+    "file": "beforeafter.css"
+}

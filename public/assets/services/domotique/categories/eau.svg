@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="hydro" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <path d="m682.26,551.75c0,128.27-103.99,232.26-232.26,232.26s-232.26-103.99-232.26-232.26c0-104.35,153.7-338.79,211.03-422.62,10.21-14.93,32.24-14.93,42.45,0,57.34,83.83,211.03,318.27,211.03,422.62Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <circle cx="551.59" cy="573.2" r="53.34" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+</svg>

@@ -1,0 +1,48 @@
+#lexique {}
+
+#lexique .column {
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+}
+
+
+#lexique h1 {
+    margin-bottom: 5rem;
+}
+
+#lexique h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.85rem;
+    margin-bottom: 4rem;
+    background: $color-white-medium2;
+    padding: 20px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+
+
+#lexique .lexique_item {
+    margin-left: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+#lexique .lexique_item .title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    text-transform: unset;
+}
+
+#lexique .lexique_item .description {
+    margin-top: 0;
+    font-size: 1.32rem;
+    line-height: 2.4rem;
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="chauffage_et_clim" data-name="chauffage et clim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <rect x="253.88" y="126.88" width="392.25" height="671.21" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <circle cx="450" cy="573.2" r="154.82" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  <g>
+    <circle cx="450" cy="285.01" r="86.13" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+    <circle cx="450" cy="573.2" r="121.54" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+    <circle cx="450.18" cy="285.01" r="33.47" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+    <circle cx="450.2" cy="573.2" r="46.06" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+  </g>
+</svg>

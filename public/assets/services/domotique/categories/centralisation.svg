@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="centralisation2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <circle cx="457.19" cy="491.24" r="116.2" transform="translate(-213.45 467.17) rotate(-45)" fill="none" stroke="#000" stroke-dasharray="0 0 20.86 52.15" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <circle cx="457.19" cy="491.24" r="69.82" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <g>
+    <polygon points="159.57 317.63 457.19 144.47 754.11 317.63 457.19 491.24 159.57 317.63" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    <polygon points="754.11 667.57 754.11 317.63 457.19 491.24 457.19 837.09 754.11 667.57" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    <polygon points="159.57 666.35 159.57 317.63 457.19 491.24 457.19 837.09 159.57 666.35" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  </g>
+</svg>

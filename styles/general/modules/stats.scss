@@ -1,0 +1,26 @@
+////////////////////////
+//// NUMBER
+
+#stats .circle {
+  border-color: $color-main !important;
+}
+
+.stats .circle-filed {
+  background-color: $color-white-medium5;
+  color: $color-dark1;
+  border: none !important;
+}
+
+.stats .circle-filed2 {
+  background-color: $color-dark1;
+  color: $color-white-medium;
+  border: none !important;
+}
+
+.stats .number {
+  font-size: 1.8rem;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+}

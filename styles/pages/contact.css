@@ -1,0 +1,51 @@
+#contact p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+}
+
+#contact p span {
+  margin-right: 10px;
+}
+
+#contact_form button {
+  margin-top: 4rem;
+}
+
+#consent {
+  cursor: pointer;
+}
+
+#contact_form .error {
+  margin-top: 0.5rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+#contact_form .row {
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+#contact_form button {
+  width: 90%;
+}
+
+form input {
+  width: 100%;
+}
+
+form .column {
+  width: 90%;
+}
+/*# sourceMappingURL=contact.css.map */

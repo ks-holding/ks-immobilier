@@ -1,0 +1,67 @@
+.accesrapide {
+    margin-bottom: 1rem;
+}
+
+.accesrapide .row {
+    align-items: unset;
+}
+
+.accesrapide>p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0rem;
+}
+
+///// 
+
+.nextservice {
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 18px;
+    border: 2px solid $color-text;
+    padding: 16px 30px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin: 25px 5px 20px;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: center;
+}
+
+
+
+.nextservice a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-text;
+
+}
+
+.nextservice a span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-text;
+}
+
+.accesrapide span,
+.bigarticle a span {
+    margin-top: 0.75rem;
+
+}
+
+
+.nextservice:hover {
+    background: $color-main;
+    border-color: $color-main;
+    transform: scale(1.01);
+}
+
+.nextservice:hover {
+    color: white;
+}

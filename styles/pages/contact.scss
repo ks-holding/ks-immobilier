@@ -1,0 +1,50 @@
+#contact {
+  #coordonnes {
+    background: $color-white-medium5;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+
+    span {
+      margin-right: 10px;
+    }
+  }
+}
+
+#contact_form button {
+  margin-top: 4rem;
+}
+
+#consent {
+  cursor: pointer;
+}
+
+#contact_form .error {
+  margin-top: 0.5rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+#contact_form .row {
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+#contact_form button {
+  width: 90%;
+}
+
+form input {
+  width: 100%;
+}
+
+form .column {
+  width: 90%;
+}

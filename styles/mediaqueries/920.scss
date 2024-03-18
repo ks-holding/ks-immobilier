@@ -1,0 +1,114 @@
+@media screen and (max-width: 920px) {
+  p,
+  h1,
+  h2,
+  h3,
+  .container,
+  .column,
+  .grid-layout {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container p,
+  .container h1,
+  .container h2,
+  .container h3,
+  .column h1,
+  .column h2,
+  .column h3,
+  .grid-layout h1,
+  .grid-layout h2,
+  .grid-layout h3 {
+    width: 100%;
+  }
+
+  footer .wrapper {
+    justify-content: center;
+  }
+
+  #landing {
+    text-align: center;
+    padding: 0rem 0 5rem;
+    max-height: unset;
+  }
+
+  #landing p {
+    width: 80%;
+  }
+
+  #landing .row-reverse .circle {
+    margin: 0;
+  }
+
+  #landing .row {
+    flex-direction: column-reverse;
+  }
+
+  #landing .row-reverse .circle {
+    max-width: 80vw;
+    max-height: 80vw;
+    height: 50vw;
+    width: 50vw;
+  }
+
+  #landing .row-reverse .column {
+    max-width: unset;
+    text-align: center;
+    justify-content: center;
+    margin: 30px 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  #landing .slogan {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+
+    font-size: 2.9rem;
+    font-weight: 800;
+    line-height: 3.2rem;
+  }
+
+  #landing .row-reverse .column {
+    margin-top: 1rem;
+  }
+
+  #landing button {
+    margin: auto;
+    margin-top: 1rem;
+    margin: 0.5rem auto;
+  }
+
+  #isolation {
+    text-align: center;
+  }
+
+  #projet .container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #ourclients h3 {
+    text-align: center;
+  }
+
+  #ourclients .item {
+    margin-bottom: 3rem;
+  }
+
+  #about {
+    #others {
+      margin-top: 1.5rem;
+    }
+  }
+  #domotique-page {
+    #domotik-item-list {
+      columns: 2;
+    }
+  }
+}
