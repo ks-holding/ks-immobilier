@@ -118,7 +118,7 @@ export default function Services() {
             <Image
               layout="fill"
               objectFit="cover"
-              src="/assets/home/realisations/idea_1.jpg"
+              src="/assets/home/realisations/id1.jpg"
               alt="confection de bureaux pour entreprises"
               blurDataURL="/assets/placeholder.png"
               placeholder="blur"
@@ -157,7 +157,7 @@ export default function Services() {
             <Image
               layout="fill"
               objectFit="cover"
-              src="/assets/home/realisations/idea_2.jpg"
+              src="/assets/home/realisations/id2.jpg"
               alt="confection de bureaux pour entreprises"
               blurDataURL="/assets/placeholder.png"
               placeholder="blur"
@@ -169,7 +169,7 @@ export default function Services() {
             <Image
               layout="fill"
               objectFit="cover"
-              src="/assets/home/realisations/idea_3.jpg"
+              src="/assets/home/realisations/id3.jpg"
               alt="confection de bureaux pour entreprises"
               blurDataURL="/assets/placeholder.png"
               placeholder="blur"
