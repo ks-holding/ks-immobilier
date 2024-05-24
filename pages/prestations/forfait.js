@@ -21,9 +21,9 @@ const bureau = () => {
           />
           <figure className="picture-panorama">
             <Image
-              objectFit="cover"
+              objectFit="contain"
               layout="fill"
-              src="/assets/home/realisations/image-bureau-4.jpg"
+              src="/assets/home/realisations/Bannière.png"
               alt="Construction d'une charpente maison"
               blurDataURL="/assets/placeholder.png"
               placeholder="blur"

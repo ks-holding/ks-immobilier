@@ -23,7 +23,7 @@ const parking = () => {
             <Image
               objectFit="cover"
               layout="fill"
-              src="/assets/home/realisations/parking1.jpg"
+              src="/assets/home/realisations/parking1.png"
               alt="Construction d'une charpente maison"
               blurDataURL="/assets/placeholder.png"
               placeholder="blur"

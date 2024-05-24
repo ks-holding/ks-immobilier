@@ -62,7 +62,7 @@ export default function Realisations() {
           <div className={inView ? " fadein column grid-7-12" : "column grid-7-12"}>
           <h3>Dimensions et Capacité</h3>
             <p>
-            Avec une superficie de 125m² de bureaux et de 600m² de locaux d’activité, elle convient parfaitement à une petite entreprise de type PME.<br></br>
+            Avec une superficie de 125m² de bureaux et de 600m² de locaux d’activité, elle convient parfaitement à une PME.<br></br>
               
             </p>
             
@@ -110,7 +110,7 @@ export default function Realisations() {
           <div className={inView ? "column grid-7-12 picture fadezoomin" : "column grid-7-12 picture"}>
             <h3>Aménagement Intérieur</h3>
             <p>
-            L’aménagement total de ces locaux a été réalisé par des architectes professionnels. Mélangeant verdure et modernité, les collaborateurs s’y plaisent et possèdent un environnement de travail sain. 
+            L’aménagement total de ces locaux a été réalisé par des architectes professionnels. Mélangeant verdure et modernité, les collaborateurs s'y épanouissent. 
             </p>
            
           </div>
