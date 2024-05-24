@@ -117,7 +117,7 @@ export default function Contact() {
             <img className="batiment-ks-renov" src="/assets/contact/bat-ks-ren.png" alt="batiment-ks-renov" />
             </div> */}
             <p className="center text-center ">
-            <a style={{ textAlign:"center"  }} href="https://maps.app.goo.gl/AYHMzbyynAQN45hd9" target="_blank">14 avenue Eugène Freyssinet 95740 FREPILLON</a>
+            <a style={{ textAlign:"center"  }} href="https://maps.app.goo.gl/hy2TvFW3JycBJtX5A" target="_blank">10 Avenue Château Laugier <br></br> 13220 Châteauneuf-les-Martigues</a>
             </p>
             
             

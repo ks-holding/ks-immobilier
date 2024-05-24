@@ -20,7 +20,7 @@ const Landing = () => {
         <div className="column">
           <figure className="circle">
             <Image
-              src="/assets/home/image-home.jpg"
+              src="/assets/home/home ks.png"
               alt="Rénovation intérieure maison"
               layout="fill"
               objectFit="cover"
@@ -40,7 +40,7 @@ const Landing = () => {
           <li>Abonnement hebdomadaire et mensuel</li>
         </ul>
 
-          <p>Pour nous contacter, cliquez sur le bouton ci-dessous</p>
+          <p style={{margin:"0"}}>Pour nous contacter, cliquez sur le bouton ci-dessous</p>
           <Link href="/contact">
             <button className="button-empty row">
               <MailOpenOutline width="22px" height="22px" color="#21273b" />

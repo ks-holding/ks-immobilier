@@ -7,7 +7,7 @@ export default function ContactUs() {
     <div id="contactus">
       <p>
         {" "}
-        Nous proposons des devis gratuits et personnalisé sur demande
+        Nous proposons des devis gratuits et personnalisés sur demande
         <br />
         <br />
         N'hésitez pas à nous contacter par téléphone ou sur notre site web via le formulaire de contact

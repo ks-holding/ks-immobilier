@@ -11,12 +11,12 @@ const Cookies = () => {
       description="Découvrez notre politiques de cookies et la façon dont nous pouvons les paramétrer"
     >
       <section className="container-medium" id="cookies">
-        <FilArianne
+        {/* <FilArianne
           links={[
             { url: "/informations", legend: "informations" },
             { url: "/informations/lexique", legend: "Lexique" },
           ]}
-        />
+        /> */}
 
         <h1>Politique d'utilisation des cookies</h1>
         <p>
@@ -57,10 +57,10 @@ const Cookies = () => {
         </p>
       </section>
 
-      <RapidAccess
+      {/* <RapidAccess
         prev={{ url: "/informations", legend: "Informations" }}
         next={{ url: "/informations/conditions-utilisations", legend: "Conditions d'utilisation" }}
-      />
+      /> */}
     </Layout>
   );
 };

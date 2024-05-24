@@ -57,9 +57,14 @@ export default function Services() {
     const [prenomError, setPrenomError] = useState("");
     const [phoneError, setPhoneError] = useState("");
     const [emailError, setEmailError] = useState("");
-  
+
+    const [modalOpen, setModalOpen] = useState(false);
+    const [modalTitle, setModalTitle] = useState("title");
+    const [modalDescription, setModalDescription] = useState("description");
+    const [modalStatus, setModalStatus] = useState(null);
+    
     const reservationReussiePopup = () => {
-      window.alert("La réservation a été réussie !");
+      window.alert("La réservation a été réussie! l'un de nos agents vous contactera dans le plus brefs délais");
     };
   
     const isDateValid1 =
@@ -91,16 +96,13 @@ export default function Services() {
   // ...
   
   const sendEmail = (e) => {
-    // Empêchez le comportement par défaut du formulaire (rechargement de la page)
     e.preventDefault();
-  
-    // Réinitialisez les erreurs
+
     setNomError("");
     setPrenomError("");
     setPhoneError("");
     setEmailError("");
-  
-    // Effectuez la validation des champs
+
     let isValid = true;
     if (!nom) {
       setNomError("Le champ nom est requis.");
@@ -118,21 +120,30 @@ export default function Services() {
       setEmailError("Le champ adresse e-mail est requis.");
       isValid = false;
     }
-  
-    // Si la validation échoue, arrêtez le processus d'envoi de l'e-mail
+
     if (!isValid) {
       return;
     }
-  
-    // Tous les champs sont valides, procédez à l'envoi de l'e-mail
-    emailjs
-      .sendForm("service_cgpjx46", "template_gv2scgf", form.current, "dkQagEfXrOwdjH6TO")
-      .then((result) => {
-        console.log("envoyé avec succès");
-      })
-      .catch((error) => {
-        console.log(error.text);
-      });
+
+    const newContact = { nom, prenom, email, phone, day, month, year, selecthours };
+    Axios.post("api/sendreservation", { newContact }).then(data => {
+      setNom("");
+      setEmail("");
+      setPhone("");
+      setPrenom("");
+
+      if (data.data === true) {
+        setModalTitle("Message transmis !");
+        setModalDescription("Notre équipe va vous répondre dans les plus brefs délais.");
+        setModalStatus("success");
+        setModalOpen(true);
+      } else {
+        setModalTitle("L'envoi a échoué !");
+        setModalDescription("Veuillez vérifier vos champs avant de soumettre le formulaire.");
+        setModalStatus("failed");
+        setModalOpen(true);
+      }
+    });
   };
   
   
@@ -230,7 +241,7 @@ export default function Services() {
           
           {console.log(isDateValid1)}
           {selectedDate && !isDateValid1 && (
-          <p style={{color:'red'}}>Veuillez choisir une date vailde.</p>
+          <p style={{color:'red'}}>Veuillez choisir une date valide.</p>
         )}
           {isDateValid1 && (
             <>

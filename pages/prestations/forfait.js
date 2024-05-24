@@ -23,7 +23,7 @@ const bureau = () => {
             <Image
               objectFit="cover"
               layout="fill"
-              src="/assets/home/realisations/laptop-3196481_1920.jpg"
+              src="/assets/home/realisations/image-bureau-4.jpg"
               alt="Construction d'une charpente maison"
               blurDataURL="/assets/placeholder.png"
               placeholder="blur"
@@ -33,11 +33,61 @@ const bureau = () => {
           
           <div className="grid-layout">
             <div className="column grid-1-12">
-              <h2 className="text-left ">Vous êtes à la recherche d’un espace de bureau professionnel ?</h2>
+              <h2 className="text-left ">Forfaits - réservation d’une salle </h2>
               <p>
-              Notre Forfait « Réservation de salle de réunion » est la solution clé en main idéale pour les entreprises / particulier cherchant à élargir leur empreinte sans les problèmes liés à la gestion d'un espace physique. Profitez de la flexibilité et de la disponibilité de notre service qui s'occupe de tous les détails liés à la réservation de bureaux,
-               vous permettant de vous concentrer pleinement sur le développement de votre activité.
+              Découvrez nos offres de forfaits pour la réservation de salles conçues pour répondre à vos besoins professionnels. Que vous ayez besoin d'un espace pour des réunions, des conférences,
+               ou des sessions de coworking, nous avons la solution idéale pour vous.
+               Profitez de la flexibilité et de la disponibilité de notre service, vous permettant de vous concentrer pleinement sur le développement de votre activité.
               </p>
+              <h3>
+              Nos forfaits :
+              </h3>
+
+              <ul>
+                 <li><strong>Forfait journalière : </strong>
+                 Idéal pour des réunions ou des séminaires d'une journée entière. Convient également aux personnes souhaitant réserver des bureaux pour quelques heures ou une demie-journée.
+                </li>
+                <br></br>
+                <li><strong>Forfait mensuel : </strong>
+                convient aux petites entreprises ou aux indépendants qui ont besoin d'un espace de réunion de manière occasionnelle.
+                </li>
+                <br></br>
+                <li><strong>Forfait annuel : </strong>
+                convient pour les plus grandes entreprises et les organisations nécessitant un accès illimité.
+                </li>
+                <br></br>
+              </ul>
+              <h3>
+              L’avantage de nos forfaits :
+              </h3>
+              <ul>
+                <li><strong>Accès Immédiat : </strong>
+                Obtenez un accès rapide à des bureaux entièrement équipés, permettant à votre entreprise de démarrer ou de poursuivre ses activités sans délai.
+                </li>
+                <br></br>
+                <li>
+                <strong>Durée flexible : </strong>
+                Choisissez la durée qui convient le mieux à vos besoins, que ce soit pour une courte période de projet ou sur du long terme. De plus, notre forfait offre une flexibilité adaptée à l'évolution de votre entreprise.
+                </li>
+                <br></br>
+                <li>
+                <strong>Services Inclus : </strong>
+                Profitez de services complets tels que l'accès à Internet Haut débit, des salles de réunion équipées pour faciliter votre quotidien professionnel.
+                </li>
+                <br></br>
+                <li>
+                <strong> Mobilier Ergonomique : </strong>
+                Les bureaux réservés sont fournis avec du mobilier ergonomique de haute qualité, créant un environnement de travail confortable et propice à la productivité.
+                </li>
+        
+              </ul>
+              <p style={{margin:"20px"}}>
+              Gagnez du temps, évitez les problèmes logistiques et concentrez-vous sur le développement de votre entreprise.
+              </p>
+              <p>
+              Réservez votre forfait dès maintenant et profitez d'un espace de travail professionnel !
+              </p>
+              
 
               
             </div>

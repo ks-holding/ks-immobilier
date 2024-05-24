@@ -26,12 +26,12 @@ export default function MentionsLegales() {
       title="Informations légales"
       description="Toutes les informations obligatoires liées à notre société ainsi que les informations d'hébergement du site web"
     >
-      <FilArianne
+      {/* <FilArianne
         links={[
           { url: "/informations", legend: "informations" },
           { url: "/informations/mentions-legales", legend: "Mentions légales" },
         ]}
-      />
+      /> */}
 
       <section className="container-medium" id="mentions-legales">
         <h1 className="text-center">Mentions légales</h1>
@@ -40,7 +40,7 @@ export default function MentionsLegales() {
           {SITE_ADDRESS && (
             <div className="row">
               <h3>Adresse du siège social </h3>
-              <span>{SITE_ADDRESS}</span>
+              <span>14 avenue Eugène Freyssinet 95740 FREPILLON</span>
             </div>
           )}
           {SITE_TEL1 && (
@@ -116,10 +116,10 @@ export default function MentionsLegales() {
         </div>
       </section>
 
-      <RapidAccess
+      {/* <RapidAccess
         prev={{ url: "/informations", legend: "Informations" }}
         next={{ url: "/informations/cookies", legend: "Cookies" }}
-      />
+      /> */}
     </Layout>
   );
 }

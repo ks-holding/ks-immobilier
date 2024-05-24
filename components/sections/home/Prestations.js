@@ -61,7 +61,7 @@ export default function Prestations() {
                 <h3>Location parking</h3>
 
                 <p className="detail">
-                  <ChevronForwardOutline size={4} color="#CA2720" width={7} />
+                  <ChevronForwardOutline size={4} color="#CA2720" />
                   Accéder au détail
                 </p>
               </div>

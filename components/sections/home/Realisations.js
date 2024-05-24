@@ -18,7 +18,7 @@ export default function Realisations() {
   return (
     <section id="realisations" ref={ref}>
       <div className="container">
-        <h2 className={inView ? " fadein text-center" : "text-center"}> Exemples de locations</h2>
+        <h2 className={inView ? " fadein text-center" : "text-center"}> Exemple de locations</h2>
 
         <div className="grid-layout">
           <div className={inView ? " fadein column grid-1-6" : "column grid-1-6"}>
@@ -27,6 +27,7 @@ export default function Realisations() {
             
             <br></br>
           Bienvenue dans la ZAC des Épineaux, nous vous présentons ce magnifique local situé au 8 Avenue Roland Moreno, 95740 Frépillon.
+          <br></br>
           <br></br>
           Sa création remonte à 2020.
                       </p>
@@ -75,8 +76,8 @@ export default function Realisations() {
           <ul>
             <li>Elle est composée de :</li>
               <li>4 bureaux</li>
-              <li>1 bureau de passage.</li>
-              <li>1 grande salle de réunion.</li>
+              <li>1 bureau de passage</li>
+              <li>1 grande salle de réunion</li>
               <li>1 coin cuisine</li>
               <li>1 terrasse</li>
               <li>10 places de parkings</li>

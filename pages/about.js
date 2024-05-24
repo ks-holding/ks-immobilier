@@ -16,28 +16,28 @@ export default function About() {
     >
       <section id="about">
         <div className="grid-layout container">
-          <div className="grid-1-6 tile">
-            <h1 className="">A propos du groupe</h1>
+          {/* <div className="grid-1-6 tile">
+            <h1 className="">À propos du groupe</h1>
 
             <div className="row center mt-3">
-              <Image src="/assets/about/logo ks-holding.svg" width="340" height="150" Layout="fixed" />
+              <Image src="/assets/about/logo ks-holding.svg" width="300" height="80" Layout="fixed" />
             </div>
             <p>
               Le groupe KS HOLDING propose par le biais des filiales des solutions en matière de rénovation énergétique,
               isolation et échafaudage. Nous nous adressons aux particuliers et aux professionnels.{" "}
             </p>
-          </div>
-          <div className="grid-7-12 tile">
+          </div> */}
+          <div className="grid-1-12 tile">
             <h1 className="">À propos de notre entreprise</h1>
 
             <div className="row center mt-3">
-              <Image src="/assets/logo.png" width="340" height="90" Layout="fixed" />
+              <Image src="/assets/logo.png" width="340" height="80" Layout="fixed" />
             </div>
             <p>
               
             
 
-            Nous sommes experts dans la fourniture d'espaces de coworking flexibles adaptés à vos besoins professionnels, offrant des solutions complètes de location de bureaux en coworking.
+            Nous sommes experts dans la fourniture d'espaces de coworking flexibles adaptés à vos besoins professionnels, offrant des solutions complètes de location de bureaux en coworking.<br></br><br></br>
              Simplifiez votre quotidien avec nos services additionnels, incluant la location de parkings pour une expérience professionnelle sans tracas.
             </p>
           </div>

@@ -33,11 +33,49 @@ const bureau = () => {
           
           <div className="grid-layout">
             <div className="column grid-1-12">
-              <h2 className="text-left ">Vous êtes à la recherche d’un espace de bureau professionnel ?</h2>
+              <h2 className="text-left ">Location bureaux :</h2>
+              <h3>Vous êtes à la recherche d’un espace de bureau professionnel ?</h3>
+
               <p>
               
               Notre service de location de bureaux offre des espaces modernes et équipés pour répondre aux besoins variés de votre entreprise. Découvrez un environnement de travail exceptionnel conçu pour favoriser la productivité et l'efficacité.
               </p>
+              <h3>Pourquoi choisir nos bureaux ?</h3>
+              <ul>
+                <li><strong>Bureaux entièrement équipés : </strong>
+                 Nos bureaux sont meublés avec soin, équipés de mobilier ergonomique et de technologies modernes pour créer un environnement de travail optimal.
+                </li>
+                <br></br>
+                <li>
+                <strong>Emplacements stratégiques : </strong>
+                 KS IMMOBILIER offre à votre entreprise une adresse professionnelle et une bonne visibilité. Vous êtes à proximité des plus grands sites industriels des Bouches-du-Rhône.
+                </li>
+                <br></br>
+                <li>
+                <strong>Accès au WIFI : </strong>
+                 Profitez de la connectivité rapide et fiable, de salles de réunion équipées des dernières technologies audiovisuelles, et d'un accès sécurisé à internet pour vous aider dans vos activités professionnelles.
+                </li>
+                <br></br>
+                <li>
+                <strong> Flexibilité de location : </strong>
+                Que vous ayez besoin d'un bureau privé, d'un espace de coworking ou d'une salle de réunion, nos offres sont flexibles et s'adaptent à votre besoin.
+                </li>
+                <br></br>
+                <li>
+                <strong>Services complémentaires : </strong>
+                 Accédez à des services complémentaires comme une imprimante connectée dernière génération pour vous simplifier dans vos missions professionnelles.
+                </li>
+                <br></br>
+                <li>
+                <strong>Espaces de détente : </strong>
+                 Nos locaux offrent des espaces de détente conviviaux, des cuisines équipées, et parfois même des espaces verts, créant un environnement équilibré propice au bien-être au travail.
+                 <br></br>
+                 <br></br>
+                Alors n’attendez plus ! Choisissez la location de bureaux chez KS IMMOBILIER pour bénéficier d'un cadre professionnel exceptionnel et d'une flexibilité adaptée à l'évolution de votre entreprise.
+                <br></br><br></br>Réservez votre espace de travail dès aujourd'hui et offrez-vous le meilleur environnement pour la réussite de vos activités professionnelles.
+                </li>
+        
+              </ul>
 
               
             </div>
@@ -95,7 +133,7 @@ const bureau = () => {
     </div>
 
     {/* Deuxième ligne d'images */}
-    <div className="column grid-1-6">
+    {/* <div className="column grid-1-6">
       <figure className="picture">
         <Image
           src="/assets/home/realisations/image-bureau-6.jpg"
@@ -118,7 +156,7 @@ const bureau = () => {
           placeholder="blur"
         />
       </figure>
-    </div>
+    </div> */}
   </div>
           
 

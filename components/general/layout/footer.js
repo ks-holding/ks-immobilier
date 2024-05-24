@@ -68,17 +68,17 @@ export default function Footer() {
             </li>
 
             <li>
-              <Link href="/domaine-d-activite/conception">
+              <Link href="/prestations/location-bureau">
                 <a>Location bureau</a>
               </Link>
             </li>
             <li>
-              <Link href="/prestation/Location-parking">
+              <Link href="/prestations/location-parking">
                 <a>Location parking</a>
               </Link>
             </li>
             <li>
-              <Link href="/prestation/forfait">
+              <Link href="/prestations/forfait">
                 <a>Forfait</a>
               </Link>
             </li>
