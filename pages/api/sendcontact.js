@@ -4,6 +4,7 @@ import VerifLength from "../../components/contact/verifyCriteres/VerifLength.js"
 import VerifyEmail from "../../components/contact/verifyCriteres/VerifEmail.js";
 import { SITE_NAME } from "../../lib/constants.js";
 import axios from "axios";
+const CAPTCHA_SECRET = "6LdmFWcaAAAAAH0gUIJLIxCbAXFI2JQkylpYP5R3";
 
 export default (req, res) => {
   console.log(req.body);
@@ -13,7 +14,7 @@ export default (req, res) => {
   //////
   const verifyToken = () => {
     axios
-      .post(`https://www.google.com/recaptcha/api/siteverify?secret=${process.env.CAPTCHA_SECRET}&response=${token}`, {
+      .post(`https://www.google.com/recaptcha/api/siteverify?secret=${CAPTCHA_SECRET}&response=${token}`, {
         token,
       })
       .then(resp => {
