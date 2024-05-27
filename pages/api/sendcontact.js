@@ -3,29 +3,11 @@ const nodemailer = require("nodemailer");
 import VerifLength from "../../components/contact/verifyCriteres/VerifLength.js";
 import VerifyEmail from "../../components/contact/verifyCriteres/VerifEmail.js";
 import { SITE_NAME } from "../../lib/constants.js";
-import axios from "axios";
-const CAPTCHA_SECRET = "6LdmFWcaAAAAAH0gUIJLIxCbAXFI2JQkylpYP5R3";
 
 export default (req, res) => {
   console.log(req.body);
 
-  const { email, name, forName, phone, subject, message, token } = req.body.newContact;
-  //console.log(token);
-  //////
-  const verifyToken = () => {
-    axios
-      .post(`https://www.google.com/recaptcha/api/siteverify?secret=${CAPTCHA_SECRET}&response=${token}`, {
-        token,
-      })
-      .then(resp => {
-        console.log(resp);
-        if (resp.data.success === true) {
-          sendMail();
-        } else {
-          res.send("error recaptcha");
-        }
-      });
-  };
+  const { email, name, forName, phone, subject, message } = req.body.newContact;
 
   const sendMail = () => {
     console.log("test sending");
@@ -60,20 +42,17 @@ export default (req, res) => {
         console.log(data);
 
         if (err) {
-          // console.log(err);
+          console.log(err);
           res.send(false);
         } else {
-          console.log("mail send");
+          console.log("mail sent");
           res.send(true);
         }
       }
     );
   };
 
-  //////
-
   const bodyVerification = () => {
-    // console.log("bodyVerification");
     if (
       VerifLength(email, 3, 40) &&
       VerifLength(name, 3, 40) &&
@@ -81,9 +60,9 @@ export default (req, res) => {
       VerifLength(message, 6, 500) &&
       VerifyEmail(email)
     ) {
-      verifyToken();
+      sendMail();
     } else {
-      res.end("BAD REQUEST");
+      res.status(400).end("BAD REQUEST");
     }
   };
 
