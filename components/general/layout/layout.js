@@ -34,7 +34,7 @@ export default function Layout({ children, title, description }) {
       
         <title>{SITE_NAME + " | " + title}</title>
         {/* <meta name="description" content={description} /> */}
-        <meta name="google-site-verification" content="D_bZF01sgCpDHkyXjbSKLSNRvu4UfRsTv6nq0i4ytm4" />
+        <meta name="google-site-verification" content="PBtB8iZQeSV8___0KHW-ldk254ZfSGx0BMPgrinsde0" />
       </Head>
       <Header />
 
