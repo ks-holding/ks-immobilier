@@ -53,7 +53,7 @@ const bureau = () => {
                 <br></br>
                 <li>
                 <strong>Accès au WIFI : </strong>
-                 Profitez de la connectivité rapide et fiable, de salles de réunion équipées des dernières technologies audiovisuelles, et d'un accès sécurisé à internet pour vous aider dans vos activités professionnelles.
+                 Profitez de la connectivité rapide et fiable, et d'un accès sécurisé à internet pour vous aider dans vos activités professionnelles.
                 </li>
                 <br></br>
                 <li>
