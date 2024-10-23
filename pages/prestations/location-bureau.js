@@ -98,7 +98,7 @@ const bureau = () => {
     <div className="column grid-1-4">
     <figure className="picture">
         <Image
-          src="/assets/home/realisations/image2.jpg"
+          src="/assets/home/realisations/image2.JPG"
           alt="Description de la première image"
           layout="fill"
           objectFit="cover"
@@ -176,7 +176,7 @@ const bureau = () => {
     <div className="column grid-1-4">
       <figure className="picture">
         <Image
-          src="/assets/home/realisations/image3.jpg"
+          src="/assets/home/realisations/image3.JPG"
           alt="Description de la première image"
           layout="fill"
           objectFit="cover"
@@ -200,7 +200,7 @@ const bureau = () => {
     <div className="column grid-9-12">
       <figure className="picture">
         <Image
-          src="/assets/home/realisations/image.jpg"
+          src="/assets/home/realisations/image.JPG"
           alt="Description de la troisième image"
           layout="fill"
           objectFit="cover"
