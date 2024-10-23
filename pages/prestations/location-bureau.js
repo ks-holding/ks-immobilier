@@ -96,6 +96,18 @@ const bureau = () => {
           <div className="grid-layout">
     {/* Première ligne d'images */}
     <div className="column grid-1-4">
+    
+      <figure className="picture">
+        <Image
+          src="/assets/home/realisations/image-bureau-3.jpg"
+          alt="Description de la deuxième image"
+          layout="fill"
+          objectFit="cover"
+          blurDataURL="/assets/placeholder.png"
+          placeholder="blur"
+        />
+      </figure>
+    </div>
       {/* <figure className="picture">
         <Image
           src="/assets/home/realisations/image2.jpg"
@@ -106,7 +118,7 @@ const bureau = () => {
           placeholder="blur"
         />
       </figure> */}
-    </div>
+    
     <div className="column grid-5-8">
       <figure className="picture">
         <Image
@@ -172,7 +184,7 @@ const bureau = () => {
         />
       </figure> */}
     </div>
-    <div className="column grid-5-8">
+    {/* <div className="column grid-5-8">
       <figure className="picture">
         <Image
           src="/assets/home/realisations/image-bureau-3.jpg"
@@ -183,7 +195,7 @@ const bureau = () => {
           placeholder="blur"
         />
       </figure>
-    </div>
+    </div> */}
     <div className="column grid-9-12">
       {/* <figure className="picture">
         <Image
