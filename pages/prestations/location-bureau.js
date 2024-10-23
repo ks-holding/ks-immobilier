@@ -42,7 +42,7 @@ const bureau = () => {
               </p>
               <h3>Pourquoi choisir nos bureaux ?</h3>
               <ul>
-                <li><strong>Bureaux entièrement équipés : </strong>
+                <li><strong>Bureaux entièrement équipés  : </strong>
                  Nos bureaux sont meublés avec soin, équipés de mobilier ergonomique et de technologies modernes pour créer un environnement de travail optimal.
                 </li>
                 <br></br>
@@ -98,16 +98,6 @@ const bureau = () => {
     <div className="column grid-1-4">
     <figure className="picture">
         <Image
-          src="/assets/home/realisations/image-bureau-3.jpg"
-          alt="Description de la deuxième image"
-          layout="fill"
-          objectFit="cover"
-          blurDataURL="/assets/placeholder.png"
-          placeholder="blur"
-        />
-      </figure>
-    {/* <figure className="picture">
-        <Image
           src="/assets/home/realisations/image2.JPG"
           alt="Description de la première image"
           layout="fill"
@@ -115,7 +105,7 @@ const bureau = () => {
           blurDataURL="/assets/placeholder.png"
           placeholder="blur"
         />
-      </figure> */}
+      </figure>
     
       {/* <figure className="picture">
         <Image
@@ -183,7 +173,7 @@ const bureau = () => {
   </div>
   <div className="grid-layout">
     {/* Première ligne d'images */}
-    {/* <div className="column grid-1-4">
+    <div className="column grid-1-4">
       <figure className="picture">
         <Image
           src="/assets/home/realisations/image3.JPG"
@@ -219,7 +209,7 @@ const bureau = () => {
         />
       </figure>
     </div>
-    </div> */}
+    </div>
           
 
           <ContactUs />
