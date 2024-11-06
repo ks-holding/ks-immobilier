@@ -3,7 +3,7 @@ import Image from "next/image";
 import { PhonePortraitOutline, CallOutline, LogoLinkedin, LogoFacebook, LogoInstagram } from "react-ionicons";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaHouzz, FaTiktok } from "react-icons/fa";
-
+import { FaFacebookF} from "react-icons/fa";
 import { SITE_NAME, SITE_TEL1, FACEBOOK, LINKEDIN, INSTAGRAM, HOUZZ, TIKTOK } from "../../../lib/constants";
 
 export default function Footer() {
@@ -93,9 +93,14 @@ export default function Footer() {
               </Link>
             </div>
             
-            <div className="row">
-              
-            </div>
+            <p className="title">Réseaux sociaux</p>
+  <div className="row" style={{ display: 'flex', flexWrap: 'wrap'}}>
+    <Link href={FACEBOOK}>
+      <a href={FACEBOOK} target="_blank">
+        <FaFacebookF className="picto"   />
+      </a>
+    </Link>
+  </div>
           </div>
         </div>
       </div>

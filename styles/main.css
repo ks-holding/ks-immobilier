@@ -4291,6 +4291,11 @@ form .column {
 #hours-select:hover {
   border-color: #272b3a; /* Changez la couleur de la bordure au survol */
 }
+.picto{
+  color:"#2a3352";
+  width: 27px;
+  height: 27px;
+}
 
 @media screen and (max-width: 1100px) {
   #formulaire-resrvation{
