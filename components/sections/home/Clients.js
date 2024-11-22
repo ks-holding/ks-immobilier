@@ -14,6 +14,18 @@ export default function Clients() {
         <h2 className={inView ? "text-center fadein" : "text-center"}> Nos clients</h2>
 
         <div className="wrapper">
+        <div className={inView ? "column item zoomin" : "column item "}>
+            <figure>
+              <Image
+                src="/assets/home/clients/particulier.svg"
+                alt="logo construction de maison personnalisée"
+                layout="fixed"
+                width="120px"
+                height="120px"
+              />
+            </figure>
+            <h3 className={inView ? "fadein" : ""}>Particuliers</h3>
+          </div>
           
           <div className={inView ? "column item zoomin" : "column item "}>
             <figure className={inView ? "zoomin" : ""}>
